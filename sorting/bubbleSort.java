@@ -15,7 +15,7 @@ public class bubbleSort{
        int n = a.length;
        for(int turn=0;turn<=n-2;turn++)
        {
-          int swap = 0;
+          boolean swapped = false;
           for(int j=0;j<=n-2-turn;j++)
           {
               if(a[j] > a[j+1])
@@ -23,11 +23,11 @@ public class bubbleSort{
                  int temp = a[j];
                  a[j] = a[j+1];
                  a[j+1] = temp;
-                 swap++;
+                 swapped = true;
               }
               
           }
-          if(swap == 0)
+          if(swapped == false)
               {
                   break;
               }
