@@ -1,6 +1,6 @@
 // Bubble Sort TC = O(n^2)
 
-//Shradha homework - 1 -> done
+//homework - 1 -> done
 // using swap==0 check whether atleast one swap happened
 // in first turn, if no swap i.e swap==0 then the array is 
 // already sorted and gives TC O(n) in best case scenario
@@ -25,11 +25,12 @@ public class bubbleSort{
                  a[j+1] = temp;
                  swap++;
               }
-              if(swap == 0)
+              
+          }
+          if(swap == 0)
               {
                   break;
               }
-          }
        }
 
     }
