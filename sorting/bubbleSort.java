@@ -39,6 +39,7 @@ public class bubbleSort{
     public static void main(String args[])
     {
        int a[] = {5,3,2,1,4};
+       //int a[] = {1,2,3,4,5};
        bubblesort(a);
        
        for(int i=0;i<a.length;i++)
